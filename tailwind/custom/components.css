@@ -1,0 +1,224 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `components` layer
+ *
+ * “Add more opinionated, complex classes like buttons, form controls, alerts,
+ * etc; the sort of pre-built components you often see in other frameworks that
+ * you might need to override with utility classes.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-components
+ */
+
+/**
+ * Post title styles
+ *
+ * These will be applied to all headings with an `entry-title` class on the
+ * frontend and to the post heading in the block editor.
+ *
+ * The supplied styles are meant to match the default `h1` classes from
+ * Tailwind Typography.
+ */
+/* $ */
+
+/* Images */
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+/* Comments */
+
+textarea,
+input {
+	border: 1px solid #e4e4e4;
+	border-radius: 4px;
+	padding: .5rem;
+	margin-bottom: 1rem;
+	margin-top: .5rem
+}
+
+textarea {
+	width: 100%;
+}
+
+.comment-list,
+.children {
+	list-style: none;
+}
+
+ul.children {
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.comment-wrap {
+	border: 1px solid rgb(229 231 235);
+	border-radius: 0.5rem;
+	padding: 10px 20px;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.comment-wrap .comments-title {
+	padding-top: 60px;
+}
+
+.comment-wrap .comment-img {
+	float: right;
+	margin-left: 20px;
+	padding-bottom: 25px;
+}
+
+.comment-author {
+	text-align: right;
+}
+
+.comment-reply {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	font-style: italic;
+	font-size: 14px;
+	padding: 5px 5px;
+	color:#6C2E71
+}
+
+.comment-author,
+.comment-author a {
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.comment-date {
+	font-size: 12px;
+	font-style: italic;
+	display: block;
+	padding-bottom: 7px;
+}
+
+.depth-2 .comment-wrap {
+	margin-right: 30px;
+}
+
+.depth-3 .comment-wrap {
+	margin-right: 60px;
+}
+
+.depth-4 .comment-wrap {
+	margin-right: 90px;
+}
+
+.depth-5 .comment-wrap {
+	margin-right: 120px;
+}
+
+.depth-6 .comment-wrap {
+	margin-right: 150px;
+}
+
+.depth-7 .comment-wrap {
+	margin-right: 180px;
+}
+
+.depth-8 .comment-wrap {
+	margin-right: 210px;
+}
+
+.depth-9 .comment-wrap {
+	margin-right: 240px;
+}
+
+.depth-10 .comment-wrap {
+	margin-right: 270px;
+}
+
+#commentform #comment,
+#commentform #author,
+#commentform #email,
+#commentform #url {
+	display: block;
+	width: 100%;
+}
+
+#commentform input[type="submit"] {
+	display: inline-block;
+	padding: 8px 15px;
+	border: 1px solid #e4e4e4;
+	font-size: 13px;
+	cursor: pointer;
+	background: #F4B55E;
+	color: #6C2E71;
+	margin-top: 15px;
+}
+
+#commentform input[type="submit"]:hover {
+	background: #6C2E71;
+	color: #fff
+}
+
+.title-line {
+	border-top: 1px dotted #ccc;
+	display: block;
+	max-width: 30%;
+	margin: 0 auto 25px;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+
+	.comment-list,
+	.children {
+		padding-left: 0px;
+	}
+
+	.comment-wrap .comment-img {
+		float: none;
+		margin: 0px;
+		width: 100%;
+		padding-bottom: 0px;
+	}
+
+	.comment-img>img {
+		display: block;
+		margin: 0px auto;
+	}
+
+	.comment-author,
+	.comment-author a,
+	.comment-date {
+		text-align: center;
+	}
+
+	.depth-2 .comment-wrap,
+	.depth-3 .comment-wrap,
+	.depth-4 .comment-wrap,
+	.depth-5 .comment-wrap,
+	.depth-6 .comment-wrap,
+	.depth-7 .comment-wrap,
+	.depth-8 .comment-wrap,
+	.depth-9 .comment-wrap,
+	.depth-10 .comment-wrap {
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.comment-reply {
+		position: relative;
+		text-align: center;
+		display: block;
+		margin-top: 15px;
+	}
+
+	.comment-body{
+		text-align: center;
+	}
+}
