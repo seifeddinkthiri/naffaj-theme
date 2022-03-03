@@ -116,6 +116,8 @@ if ( ! function_exists( 'naffaj_setup' ) ) :
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
+
+		add_theme_support( 'block-templates' );
 	}
 endif;
 add_action( 'after_setup_theme', 'naffaj_setup' );
