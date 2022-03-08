@@ -159,7 +159,7 @@ get_header();
             </div>
 
             <div class="w-full lg:w-6/12">
-			<p class="font-normal text-sm leading-3 text-primary cursor-pointer pb-2">من نحن</p>
+                <p class="font-normal text-sm leading-3 text-primary cursor-pointer pb-2">من نحن</p>
                 <h2 class="w-full font-bold lg:text-3xl text-2xl lg:leading-10 leading-9">عن نفاج </h2>
                 <p class="font-normal text-base leading-8  mt-6">نفاج مصر هي وكالة للخدمات الجامعية نجحت في كسب اعتماد
                     واسع من قبل العديد من الجامعات والمعاهد المصرية . تختص في مجال الخدمات الجامعية والاستشارات
@@ -175,10 +175,10 @@ get_header();
 
 
 
-              <div class="mt-8">
-				<a href="/about" class="border rounded text-sm px-3 py-3 bg-primary text-white border-primary">
-                    اقرأ أكثر</a>
-			 </div>
+                <div class="mt-8">
+                    <a href="/about" class="border rounded text-sm px-3 py-3 bg-primary text-white border-primary">
+                        اقرأ أكثر</a>
+                </div>
 
 
             </div>
@@ -252,9 +252,122 @@ get_header();
         </div>
     </div>
 
+    <!--- Tesimonials --->
+
+    <div class="lg:px-20 md:px-6 px-4 lg:py-24 py-12">
+        <div class="flex flex-col items-center justify-center">
+            <h1 class="lg:text-3xl text-2xl font-bold text-center text-gray-700">ماذا قالوا عنا</h1>
+            <p class="text-base leading-6 mt-4 text-center text-gray-600 2xl:w-2/5 ">هذه بعض من آراء عملائنا الكرام
+                وملاحظاتهم، وهناك الكثير..</p>
+        </div>
+        <div class="w-full lg:flex items-center gap-6 mt-10">
+            <div class="lg:w-1/2">
+                <div class="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                    <div>
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-quote w-8 h-8 text-primary"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M10 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5"></path>
+							<path d="M19 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5"></path>
+						</svg>
+                    </div>
+
+                    <p class="text-base leading-6 text-gray-600 mt-4">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                        لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير
+                        على سبيل المثال ... او نماذج مواقع انترنت ...
+
+                    </p>
+                    <div class="absolute bottom-0 -mb-4 ml-10">
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg2.svg" alt="sharp" />
+                    </div>
+                </div>
+                <div class="flex items-center mt-7">
+                    <div class="w-12 h-12 border border-primary rounded-full flex items-center justify-center">
+                        <img src="https://i.ibb.co/R6WQhYj/Mask-Group.png" class="w-10 h-10 rounded-full"
+                            alt="profile" />
+                    </div>
+                    <div class="flex flex-col items-start mr-4">
+                        <p class="text-base font-semibold leading-4 text-gray-800">أسماء أسماء</p>
+                        <p class="text-base leading-4 mt-2 text-center text-gray-600">طالبة صيدلة بجامعة الاسكندرية</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 lg:mt-0 mt-16">
+                <div class="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                    <div>
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-quote w-8 h-8 text-primary"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M10 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5"></path>
+							<path d="M19 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5"></path>
+						</svg>
+                    </div>
+                    <p class="text-base leading-6 text-gray-600 mt-4">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم
+                        لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير
+                        على سبيل المثال ... او نماذج مواقع انترنت ...
+
+                    </p>
+                    <div class="absolute bottom-0 -mb-4 ml-10">
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg2.svg" alt="sharp" />
+                    </div>
+                </div>
+                <div class="flex items-center mt-7">
+                    <div class="w-12 h-12 border border-primary rounded-full flex items-center justify-center">
+                        <img src="https://i.ibb.co/C6bwf12/Mask-Group.png" class="w-10 h-10 rounded-full"
+                            alt="profile" />
+                    </div>
+                    <div class="flex flex-col items-start mr-4">
+                        <p class="text-base font-semibold leading-4 text-gray-800">أحمد أحمد</p>
+                        <p class="text-base leading-4 mt-2 text-center text-gray-600">طالب طب بجامعة القاهرة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	 <!-- CTA -->
+
+	 <div class="bg-primary mt-12 text-white">
+        <section class="mx-auto container w-full py-36">
+            <div class="flex flex-col justify-center items-center">
+                <div
+                    class="md:text-3xl text-4xl text-center  leading-snug lg:w-3/4">
+                    <h2 class="leading-normal ">فريقنا مستعد للاجابة على كل تساؤلاتك.</h2>
+                </div>
+				<p class="mt-4">يكفيك الاستعانة بأحد من فريقنا لتبدأ مشوارك الأكاديمي بنجاح مهما كان استفسارك تأكد أننا نقدم لك الاستشارة مجاناً</p>
+
+                <div class="flex justify-center items-center mt-16">
+                    <button
+                        class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:opacity-90 w-48 h-12 text-lg text-primary bg-secondary rounded">تواصل
+                        منا الآن</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+	<!-- CTA -->
+
+	<!-- <div class="2xl:mx-auto 2xl:container md:px-20 px-4 md:py-12 py-9">
+            <div class="relative rounded-md">
+                <img src="https://i.ibb.co/SBpL1cK/pexels-aleksandar-pasaric-325185-1.png" alt="city view" class="w-full h-full rounded-md  object-center object-fill absolute sm:block hidden" />
+                <img src="https://i.ibb.co/LQpxBsc/mobile.png" alt="city view" class="w-full h-full rounded-md absolute object-center object-fill sm:hidden" />
+                <div class="text-xl relative z-20 bg-gradient-to-r from-blue-700 to-transparent w-full h-full z-40 top-0 md:p-16 p-6 flex flex-col justify-between rounded-md ">
+                    <div>
+                        <h1 class="md:text-5xl text-3xl font-bold md:leading-10 leading-9 text-white sm:w-auto w-64">Act Before It’s Too Late!</h1>
+                        <p class="text-lg leading-6 text-white xl:w-5/12 lg:w-8/12 md:w-10/12  2xl:pr-12 mt-4">A good idiom for kids is "It's raining cats and dogs." Kids know what both cats and dogs are from an early age.</p>
+                    </div>
+                    <div class="md:mt-12 mt-20">
+                        <button class="text-base font-medium leading-4 text-indigo-700 bg-white sm:w-auto w-full rounded p-4 focus:outline-none hover:bg-gray-100 focus:ring-2 focus:ring-offset-2 focus:ring-white">Explore More</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
 
     <div class="mt-24 px-8 max-w-screen-xl mx-auto">
-        <h2 class="text-2xl font-bold w-full text-center mb-12">المدونة</h2>
+		<div class="flex flex-col items-center justify-center mb-10">
+			<h1 class="lg:text-3xl text-2xl font-bold text-center text-gray-700">المدونة</h1>
+			<p class="text-base leading-6 mt-4 text-center text-gray-600 2xl:w-2/5 ">اطلع على آخر مقالاتنا..</p>
+		</div>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4">
 
@@ -329,80 +442,8 @@ get_header();
         </div>
     </div>
 
-    <!-- Logo -->
 
 
-    <div class="bg-gray-100 rounded mx-auto pt-16">
-        <div class="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16">
-            <h1 tabindex="0"
-                class="focus:outline-none xl:text-3xl md:text-3xl text-xl text-center text-gray-800 font-extrabold mb-5 pt-4">
-                Partnerships with Coveted Brands</h1>
-            <p tabindex="0"
-                class="focus:outline-none text-base md:text-lg lg:text-xl text-center text-gray-600 font-normal xl:w-10/12 xl:mx-auto">
-                Our success has come from being committed to the property and investing in the development of the
-                product to maximize sales. At the same time and maintaining the integrity.</p>
-        </div>
-        <div class="xl:py-16 lg:py-16 md:py-16 sm:py-16 px-15 flex flex-wrap">
-            <div
-                class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/adidas-dark.png"
-                    alt="Adidas" role="img" />
-            </div>
-            <div
-                class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r border-gray-200 xl:pb-10 pb-16 items-center">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/channel-dark.png"
-                    alt="Chanel" role="img" />
-            </div>
-            <div
-                class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b border-gray-200 xl:pb-10 pb-16 pt-4 items-center">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/nike-dark.png" alt="Nike"
-                    role="img" />
-            </div>
-            <div
-                class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center lg:border-b xl:border-b lg:border-l xl:border-l border-gray-200 xl:pb-10 pb-16 items-center">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/toyota-dark.png"
-                    alt="Toyota" role="img" />
-            </div>
-            <div
-                class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/gs1-dark.png" alt="GS1"
-                    role="img" />
-            </div>
-            <div
-                class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/berry-dark.png"
-                    alt="BlackBerry" role="img" />
-            </div>
-            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 lg:pt-10 md:pt-2 pt-16">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/min-dark.png" alt="Mini"
-                    role="img" />
-            </div>
-            <div
-                class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16">
-                <img tabindex="0" class="focus:outline-none" src="https://cdn.tuk.dev/assets/honda-dark.png" alt="Honda"
-                    role="img" />
-            </div>
-        </div>
-    </div>
-
-
-    <!-- CTA -->
-
-    <div class="dark:bg-gray-900">
-        <section class="mx-auto container w-full py-36">
-            <div class="flex flex-col justify-center items-center">
-                <div
-                    class="md:text-3xl text-4xl font-black text-center text-gray-800 dark:text-white leading-snug lg:w-3/4">
-                    <h2 class="leading-normal ">فريقنا مستعد للاجابة على كل تساؤلاتك.</h2>
-                </div>
-                <div class="flex justify-center items-center mt-16">
-                    <button
-                        class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800 hover:opacity-90 w-48 h-12 text-lg text-white bg-primary rounded">تواصل
-                        منا الآن</button>
-                </div>
-            </div>
-        </section>
-    </div>
 
 
 </main><!-- #main -->

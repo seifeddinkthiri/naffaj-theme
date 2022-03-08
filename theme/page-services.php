@@ -24,7 +24,7 @@ get_header();
 <main id="primary " class=" mt-8">
     <div class="max-w-7xl mx-auto">
         <section class="text-gray-600 body-font">
-            <div class="container px-5 pb-24 mx-auto">
+            <div class="container px-5 pb-12 mx-auto">
                 <!-- <div class="text-center mb-20">
                     <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Raw Denim
                         Heirloom Man Braid</h1>
@@ -112,638 +112,165 @@ get_header();
     </div>
 
 
-    <section>
-        <div class="
-          relative
-          items-center
-          w-full
-          py-24
-          mx-auto
-          md:px-12
-          lg:px-16
-          max-w-7xl
-        ">
-            <div class="px-5 overflow-hidden divide-y  rounded-xl lg:px-0">
-                <div class="flex flex-wrap items-end justify-start w-full bg-gray-50">
-                    <div class="w-full xl:w-1/4 md:w-1/4">
-                        <div class="relative flex flex-col h-full p-8">
-                            <h2 class="
-                    mb-4
-                    text-sm
-                    font-medium
-                    tracking-widest
-                    text-neutral-600
-                    uppercase
-                  "> Sponsorships </h2>
-                            <ul class="space-y-4">
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>Newsletter's Top.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <line x1="18" y1="6" x2="6" y2="18"></line>
-                                            <line x1="6" y1="6" x2="18" y2="18"></line>
-                                        </svg> </span>1 Newsletter Issue.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1.6k+ Readers.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="w-full xl:w-1/4 md:w-1/4">
-                        <div class="relative flex flex-col h-full p-8">
-                            <div class="space-y-4">
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>Newsletter's Top.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1 Newsletter Issue.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1.6k+ Readers.
-                                </li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full xl:w-1/4 md:w-1/4">
-                        <div class="relative flex flex-col h-full p-8">
-                            <div class="space-y-4">
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>Newsletter's Top.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1 Newsletter Issue.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-normal
-                      tracking-tight
-                      text-gray-500
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-gray-300
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1.6k+ Readers.
-                                </li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full xl:w-1/4 md:w-1/4 lg:ml-auto">
-                        <div class="relative flex flex-col h-full p-8">
-                            <strong class="
-                    flex
-                    items-end
-                    mx-auto
-                    text-3xl
-                    font-black
-                    leading-none
-                    text-neutral-600
-                  ">
-                                <span>$10 </span>
-                            </strong>
-                            <div class="mt-2">
-                                <button role="button" class="
-                      w-full
-                      items-center
-                      block
-                      px-10
-                      py-3.5
-                      text-base
-                      font-medium
-                      text-center text-blue-600
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      border-2 border-white
 
-                      rounded-xl
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-gray-500
-                      bg-white
-                    "> Buy Now </button>
+    <section class="px-6 xl:px-0 bg-gray-100">
+        <div class="lg:py-20 py-12 px-6 mx-auto container">
+            <div class="flex flex-col lg:items-center justify-center w-full">
+                <h1 class="font-semibold text-gray-700 text-2xl md:text-4xl">اختر الأنسب لك.</h1>
+                <p class="mt-2.5 lg:w-1/2 lg:text-center text-lg text-gray-700">لكي نوفر عليك الكثير من المصاريف
+                    والكثير من المجهودات يقوم فريقنا بجمع كل المستلزمات التي تحتاج اليها ضمن باقات شاملة فقط عليك اختيار
+                    واحدة منها وفق احتياجاتك. </p>
+            </div>
+            <div class="flex items-center justify-center w-full">
+                <div class="pt-14">
+                    <div class="container mx-auto">
+
+                        <div class="flex flex-wrap mb-12 justify-between sm:justify-center -mx-6">
+                            <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
+                                <div class="py-5 px-4 bg-white border border-gray-200shadow rounded-lg ">
+                                    <h2 class="text-xl text-primary font-semibold mb-8">الباقة الفضية</h2>
+                                    <ul class="flex flex-col mb-6">
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">متابعة التقديم عبر موقع ادرس في مصر</p>
+                                        </li>
+                                        <li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">دفع الرسوم</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">الحصول على الترشيح المبدئي</p>
+                                        </li>
+
+                                    </ul>
+                                    <p class="text-base text-primary text-center relative pl-3">
+                                        <span class="text-2xl font-semibold">مجانا</span>
+                                    </p>
+                                    <button
+                                        class="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition duration-150 ease-in-out rounded text-primary px-8 text-base font-semibold py-3">قدم طلبك</button>
+                                </div>
                             </div>
-                            <p class="mx-auto mt-6 text-xs text-gray-500"> Only once within 6 months </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-wrap items-end justify-start w-full bg-white">
-                    <div class="w-full xl:w-1/4 md:w-1/4">
-                        <div class="relative flex flex-col h-full p-8">
-                            <h2 class="
-                    mb-4
-                    text-sm
-                    font-medium
-                    tracking-widest
-                    text-neutral-600
-                    uppercase
-                  "> Sponsorships </h2>
-                            <ul class="space-y-4">
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>Newsletter's Top.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1 Newsletter Issue.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1.6k+ Readers.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="w-full xl:w-1/4 md:w-1/4">
-                        <div class="relative flex flex-col h-full p-8">
-                            <ul class="space-y-4">
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>Newsletter's Top.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1 Newsletter Issue.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1.6k+ Readers.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="w-full xl:w-1/4 md:w-1/4">
-                        <div class="relative flex flex-col h-full p-8">
-                            <ul class="space-y-4">
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>Newsletter's Top.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1 Newsletter Issue.
-                                </li>
-                                <li class="
-                      flex
-                      items-center
-                      mb-2
-                      text-base
-                      font-medium
-                      leading-relaxed
-                      text-neutral-600
-                    ">
-                                    <span class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        flex-shrink-0
-                        w-5
-                        h-5
-                        ml-2
-                        text-white
-                        bg-black
-                        rounded-full
-                      ">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3"
-                                            viewBox="0 0 24 24">
-                                            <path d="M20 6L9 17l-5-5"></path>
-                                        </svg> </span>1.6k+ Readers.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="w-full xl:w-1/4 md:w-1/4 lg:ml-auto">
-                        <div class="relative flex flex-col h-full p-8">
-                            <strong class="
-                    flex
-                    items-end
-                    mx-auto
-                    text-3xl
-                    font-black
-                    leading-none
-                    text-blue-600
-                  ">
-                                <span>$50 </span>
-                            </strong>
-                            <div class="mt-2">
-                                <button role="button" class="
-                      flex
-                      items-center
-                      justify-center
-                      w-full
-                      px-10
-                      py-4
-                      text-base
-                      font-medium
-                      text-center text-white
-                      transition
-                      duration-500
-                      ease-in-out
-                      transform
-                      bg-blue-600
-                      rounded-xl
-                      hover:bg-blue-700
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-blue-500
-                    "> Buy Now </button>
+                            <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
+                                <div class="py-5 px-4 bg-primary border border-gray-200 shadow rounded-lg ">
+                                    <h2 class="text-xl text-white font-semibold mb-8">الباقة الذهبية</h2>
+                                    <ul class="flex flex-col mb-6">
+                                        <li class="flex items-center mb-2.5">
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks text-secondary flex-shrink-0 ml-4 w-6 h-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+											<path d="M7 12l5 5l10 -10"></path>
+											<path d="M2 12l5 5m5 -5l5 -5"></path>
+										</svg>
+                                            <p class="text-secondary text-base font-semibold">جميع مميزات الباقة الفضية</p>
+                                        </li>
+                                        <li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">إرسال الشهادات والاوراق الاصلية</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">عمل التوثيقات من السفارة والخارجية المصرية</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">تسليم الملف لأدارة الوافدين</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">إستلام افادة القبول النهائي</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">استشارات السفر والحصول على افضل الاسعار</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">إستقبال في مطار القاهرة</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">استشارات السكن الطلابي</p>
+                                        </li>
+                                    </ul>
+                                    <p class="text-base text-white text-center relative pl-3">
+                                        <span class="font-light text-lg">$</span>
+                                        <span class="text-2xl font-semibold">200</span>
+                                    </p>
+                                    <button
+                                        class="mt-5 w-full text-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary focus:ring-white transition duration-150 ease-in-out rounded bg-white hover:bg-gray-100 px-8 py-3 text-base font-semibold">قدم طلبك</button>
+                                </div>
                             </div>
-                            <p class="mx-auto mt-6 text-xs text-gray-500"> Only once within 6 months </p>
+                            <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
+                                <div class="py-5 px-4 bg-white border border-gray-200shadow rounded-lg">
+                                    <h2 class="text-lg text-primary font-semibold mb-8">الباقة البرونزية</h2>
+                                    <ul class="flex flex-col mb-6">
+										<li class="flex items-center mb-2.5">
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks text-primary flex-shrink-0 ml-4 w-6 h-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+											<path d="M7 12l5 5l10 -10"></path>
+											<path d="M2 12l5 5m5 -5l5 -5"></path>
+										</svg>
+                                            <p class="text-primary text-base font-semibold">جميع مميزات الباقة الذهبية</p>
+                                        </li>
+                                        <li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">تجهيز ملف التأشيرة وضمان الحصول عليها في اسرع وقت</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">الحصول على رقم هاتف</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">متابعة تسجيل الجامعة</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">متابعة ملف الاقامة</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">فتح الحساب البنكي والحصول على بطاقة فيزا</p>
+                                        </li>
+                                    </ul>
+                                    <p class="text-base text-primary text-center relative pl-3">
+                                        <span class="font-light text-lg">$</span>
+                                        <span class="text-2xl font-semibold">400</span>
+                                    </p>
+                                    <button
+                                        class="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition duration-150 ease-in-out rounded text-primary px-8 text-base font-semibold py-3">قدم طلبك</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -752,7 +279,130 @@ get_header();
     </section>
 
 
+	<section class="">
+	<div class="lg:py-20 py-12 px-6 mx-auto container">
+
+		<div class="flex flex-col lg:items-center justify-center w-full">
+			<p class="mt-2.5 lg:w-1/2 lg:text-center text-base text-primary mb-10">
+			* الباقات اعلاه لاتشمل الرسوم الحكومية
+			</p>
+		</div>
+
+
+			<table class="table text-gray-600 border-separate space-y-6 mx-auto lg:w-1/2 w-full text-sm rounded-lg">
+				<thead class="bg-gray-100 text-gray-600">
+					<tr>
+						<th class="p-3">الخدمة</th>
+						<th class="p-3 ">الرسوم بالجنيه المصري</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="bg-gray-100">
+
+						<td class="p-4 ">
+						توثيق الشهادات
+						</td>
+						<td class="p-3 font-bold">
+
+						</td>
+
+					</tr>
+
+					<tr class="bg-gray-100">
+
+						<td class="p-4">
+						الترشيح المبدئي
+						</td>
+						<td class="p-3 font-bold">
+
+						</td>
+
+					</tr>
+
+					<tr class="bg-gray-100">
+
+						<td class="p-4">
+						حداثة المؤهل
+						</td>
+						<td class="p-3 font-bold">
+
+						</td>
+
+					</tr>
+
+					<tr class="bg-gray-100">
+
+						<td class="p-4">
+						القبول النهائي
+						</td>
+						<td class="p-3 font-bold">
+
+						</td>
+
+					</tr>
+
+					<tr class="bg-gray-100">
+
+						<td class="p-4">
+						اعادة ترشيح
+						</td>
+						<td class="p-3 font-bold">
+
+						</td>
+
+					</tr>
+
+					<tr class="bg-gray-100">
+
+						<td class="p-4">
+						لم الشمل
+						</td>
+						<td class="p-3 font-bold">
+
+						</td>
+
+					</tr>
+
+
+
+				</tbody>
+			</table>
+
+
+	</div>
+
+	</section>
+
+
+
+
+
 </main>
+
+<style>
+	.table {
+		border-spacing: 0 15px;
+	}
+
+	i {
+		font-size: 1rem !important;
+	}
+
+	.table tr {
+		border-radius: 20px;
+	}
+
+	tr td:nth-child(n+2),
+	tr th:nth-child(n+2) {
+		border-radius: .625rem 0   0 .625rem;
+	}
+
+	tr td:nth-child(1),
+	tr th:nth-child(1) {
+		border-radius: 0 .625rem  .625rem 0 ;
+	}
+</style>
 
 <?php
 //get_sidebar();
