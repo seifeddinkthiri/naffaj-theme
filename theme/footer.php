@@ -63,7 +63,17 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script>
+	function closeMenu(){
+		let menu = document.getElementById('mobile-menu');
+		menu.classList.add('hidden');
+	}
 
+	function openMenu(){
+		let menu = document.getElementById('mobile-menu');
+		menu.classList.remove('hidden');
+	}
+</script>
 </body>
 
 </html>

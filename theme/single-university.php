@@ -83,6 +83,12 @@ get_header();
                 </div>
             </div>
 
+			<div class=" mt-4 w-full box-border">
+            <a href="<?php the_permalink() ?>"
+                class="block py-3 px-6 text-xs min-w-full font-medium text-center text-primary bg-secondary rounded-lg hover:bg-primary hover:text-white focus:ring-4 focus:ring-blue-300 ">تسجيل</a>
+
+		</div>
+
         </div>
 
 		<div class="leading-loose">

@@ -15,9 +15,6 @@
 
 	<div class="flex items-center mb-6">
 
-		<img src="https://mdbootstrap.com/img/Photos/Avatars/img (23).jpg" class="rounded-full ml-2 h-8"
-                        alt="" loading="lazy" />
-
 		<div>
 			<span> نشر <u><?php the_time('F j, Y') ?></u> بواسطة </span>
 			<a href="#!" class="font-medium">أحمد جمال</a>
