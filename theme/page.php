@@ -1,13 +1,8 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying all single posts
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
  * @package naffaj
  */
@@ -15,24 +10,24 @@
 get_header();
 ?>
 
-	<main id="primary">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+	<main id="primary" class="mb-16" style="background: url('<?php echo get_template_directory_uri() . '/assets/bg.png'  ?>' ) no-repeat; background-size:100% 100%; padding:25px">
+		<div class="max-w-5xl mx-auto ">
+			<?php
+			while ( have_posts() ) :
+				the_post();
 
-			get_template_part( 'template-parts/content', 'page' );
+				get_template_part( 'partials/content', get_post_type() );
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
 
-		endwhile; // End of the loop.
-		?>
+			endwhile; // End of the loop.
+			?>
+
+
+		</div>
 
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

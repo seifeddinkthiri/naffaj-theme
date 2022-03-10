@@ -28,12 +28,12 @@
                         <h2  class="cursor-pointer"><a class="focus:outline-none focus:underline hover:text-gray-700" href="javascript:void(0)">License</a> </h2>
                     </div> -->
                     <div class="my-6 text-sm text-color f-f-l">
-                        <ul class="md:flex items-center">
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500">من نحن </a></li>
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500">خدماتنا </a></li>
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500">الجامعات </a></li>
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500">فريق العمل </a></li>
-                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500">تواصل معنا </a></li>
+                        <ul class="md:flex items-center md:flex-row-reverse">
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="/about" class="focus:outline-none focus:underline hover:text-gray-500">من نحن </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="/services" class="focus:outline-none focus:underline hover:text-gray-500">خدماتنا </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="/universities" class="focus:outline-none focus:underline hover:text-gray-500">الجامعات </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="/about#team" class="focus:outline-none focus:underline hover:text-gray-500">فريق العمل </a></li>
+                            <li class="md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="/contact" class="focus:outline-none focus:underline hover:text-gray-500">تواصل معنا </a></li>
                             <li class="cursor-pointer pt-4 lg:py-0"><a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500">قدم طلبك </a></li>
                         </ul>
                     </div>
@@ -51,9 +51,34 @@
                     </button>
                 </div> -->
 				<div class="text-sm text-color mt-8 f-f-l">
-                        <p tabindex="0" class="focus:outline-none">© <?php echo date('Y') ?> جميع الحقوق محفوظة -
-        				<a class="text-white" href="https://naffajegypt.com/">نفاج</a></p>
-                    </div>
+					<p tabindex="0" class="focus:outline-none">© <?php echo date('Y') ?> جميع الحقوق محفوظة -
+					<a class="text-white" href="https://naffajegypt.com/">نفاج</a></p>
+				</div>
+
+				<div class="mx-auto flex mt-3 gap-2">
+					<a href="https://www.facebook.com/NaffajEgypt" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook w-6 h-6"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+						</svg>
+					</a>
+
+					<a href="https://twitter.com/naffajegypt" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
+						</svg>
+					</a>
+
+					<a href="https://www.instagram.com/naffajegypt/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<rect x="4" y="4" width="16" height="16" rx="4"></rect>
+							<circle cx="12" cy="12" r="3"></circle>
+							<line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+						</svg>
+					</a>
+				</div>
             </div>
         </div>
 

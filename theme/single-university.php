@@ -11,7 +11,7 @@ get_header();
 ?>
 
 
-<main id="primary" class="my-24 text-gray-800 max-w-screen-xl mx-auto">
+<main id="primary" class="my-24 text-gray-800 max-w-screen-xl mx-auto p-6">
     <div class=" flex lg:flex-row flex-col mb-16 relative gap-8">
         <div class="min-w-fit">
             <div class="flex gap-4 items-center">

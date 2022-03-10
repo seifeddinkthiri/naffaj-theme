@@ -33,7 +33,7 @@
 </article> -->
 
 
-<article class="max-w-sm bg-white rounded-lg border border-gray-200 ">
+<article class="bg-white rounded-lg border border-gray-200 ">
 
     <div class="flex flex-col items-center pb-10 pt-16 relative">
 		<?php

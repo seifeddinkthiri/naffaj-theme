@@ -16,21 +16,24 @@ get_header();
 ?>
 
 <div
-    style="background: url('<?php echo get_template_directory_uri() . '/assets/bg.png'  ?>' ) no-repeat; background-size:100% 100%;padding:25px">
-    <div class="hero flex md:flex-row flex-col items-center md:pt-16">
-        <div class="md:px-24">
-            <img class="w-fit" src="<?php echo get_template_directory_uri() . '/assets/students.png'  ?>" alt="">
+    style="padding:25px">
+    <div class="hero flex lg:flex-row flex-col items-center md:pt-16">
+        <div class="sm:px-32 md:px-24 lg:w-1/2 flex justify-center items-center relative">
+			<div class=" md:w-96 md:h-96 w-60 h-60  absolute bg-primary rounded-full md:right-16 md:-top-12 top-0 right-0 bg-opacity-30"></div>
+            <div class="  md:w-96 md:h-96 w-60 h-60 absolute bg-secondary rounded-full md:left-0 md:-bottom-12 bottom-0 left-0 bg-opacity-30"></div>
+            <img class="sm:max-w-sm sm:w-auto w-9/12 object-cover	rounded-lg z-10 relative md:right-10" src="<?php echo get_template_directory_uri() . '/assets/cover1.jpg'  ?>" alt="">
         </div>
 
-        <div>
-            <h2 class="text-4xl font bold text-primary leading-relaxed  	">
+        <div class="lg:text-right text-center mt-8 lg:mt-0 relative">
+        <div class="hidden lg:block z-10 lg:w-96 lg:h-96 w-60 h-60 absolute bg-gray-200 rounded-full md:left-16 md:bottom-4 bottom-12 left-12 bg-opacity-30"></div>
+            <h2 class="z-20 relative text-4xl font bold text-primary leading-relaxed  	">
                 الموقع الأول المختص بالدراسة في مصر لطلاب السودان
             </h2>
-            <div class="md:mt-6">
+            <div class="mt-6">
                 <button class="border border-primary rounded text-sm text-white px-3 py-3 bg-primary  mr-1"> سجل
                     الآن</button>
-                <button class="border rounded text-sm px-3 py-3 bg-secondary text-primary border-secondary mr-1">
-                    خدماتنا</button>
+                <a href="/services" class="border rounded text-sm px-3 py-3 bg-secondary text-primary border-secondary mr-1">
+                    خدماتنا</a>
             </div>
         </div>
     </div>
@@ -195,10 +198,7 @@ get_header();
                 <p class="font-normal text-sm leading-3 text-primary cursor-pointer pb-2">من نحن</p>
                 <h2 class="w-full font-bold lg:text-3xl text-2xl lg:leading-10 leading-9">نفاج مصر هي وكالة للخدمات
                     الجامعية </h2>
-                <p class="font-normal text-base leading-8  mt-6">نفاج مصر هي وكالة للخدمات الجامعية نجحت في كسب اعتماد
-                    واسع من قبل العديد من الجامعات والمعاهد المصرية . تختص في مجال الخدمات الجامعية والاستشارات
-                    الأكاديمية وتتنوع خدماتها لتشمل إلحصول علي القبولات الجامعية ومتابعة إصدار التأشيرات والاقامات
-                    الدراسية واستقبال الطلاب الوافدين من المطار وتنسيق أمور التسجيل والسكن الجامعي .
+                <p class="font-normal text-base leading-8  mt-6">تقدم نفاج  عبر خبراءها الأكاديميين استشارات أكاديمية عالية الجودة للطلاب المتقدمين عبرها لمواصلة دراساتهم في الجامعات والمعاهد المصرية بما يتلاءم مع مؤهلات المتقدم ورغباته الدراسية. تعمل نفاج بعد استقبالها طلب التقديم على ضمان إكتمال متطلبات الحصول على القبول الأكاديمي وتقديم الإرشادات للمتقدم بما يتوافق مع المرحلة التعليمية المختارة والمؤسسة التعليمية المراد الإلتحاق بها.
                 </p>
 
                 <div>
@@ -225,11 +225,10 @@ get_header();
                             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                             <path d="M22 4L12 14.01l-3-3"></path>
                         </svg>
-                        <h5 class="title-font text-base font-semibold">مهمة نفاج</h5>
+                        <h5 class="title-font text-base font-semibold">اسم نفاج</h5>
                     </div>
                     <p class="mr-12 text-gray-200">
-                        تقدم نفاج عبر خبراءها الأكاديميين استشارات أكاديمية عالية الجودة للطلاب المتقدمين عبرها لمواصلة
-                        دراساتهم في الجامعات والمعاهد المصرية بما يتلاءم مع مؤهلات المتقدم ورغباته الدراسية.. <a
+					نفاج كلمة باللهجة السودانية " بتشديد حرف الفاء "  تعني البوابة الصغيرة التي يتواصل عبرها الجيران في الحي <a
                             href="/about" class="text-secondary"> + اقرأ أكثر</a>
                     </p>
                 </div>
@@ -325,19 +324,21 @@ get_header();
 
 	 <!-- CTA -->
 
-	 <div class="bg-primary mt-12 text-white">
+	 <div class="bg-primary mt-12 text-white px-6">
         <section class="mx-auto container w-full py-36">
             <div class="flex flex-col justify-center items-center">
                 <div
                     class="md:text-3xl text-4xl text-center  leading-snug lg:w-3/4">
                     <h2 class="leading-normal ">فريقنا مستعد للاجابة على كل تساؤلاتك.</h2>
                 </div>
-				<p class="mt-4">يكفيك الاستعانة بأحد من فريقنا لتبدأ مشوارك الأكاديمي بنجاح مهما كان استفسارك تأكد أننا نقدم لك الاستشارة مجاناً</p>
+				<p class="mt-4 text-center">يكفيك الاستعانة بأحد من فريقنا لتبدأ مشوارك الأكاديمي بنجاح مهما كان استفسارك تأكد أننا نقدم لك الاستشارة مجاناً</p>
 
                 <div class="flex justify-center items-center mt-16">
-                    <button
-                        class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary hover:opacity-90 w-48 h-12 text-lg text-primary bg-secondary rounded">تواصل
-                        منا الآن</button>
+                    <a
+						href="/contact"
+                        class="focus:outline-none focus:ring-2 flex items-center justify-center focus:ring-offset-2 focus:ring-secondary hover:opacity-90 w-48 h-12 text-lg text-primary bg-secondary rounded">
+						<span> تواصل معنا الآن </span>
+					</a>
                 </div>
             </div>
         </section>
@@ -371,71 +372,27 @@ get_header();
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4">
 
-            <!-- Section: Design Block -->
-            <article class="mb-32 text-gray-800">
-                <img src="https://mdbootstrap.com/img/new/slides/198.jpg" class="w-full shadow-lg rounded-lg mb-6"
-                    alt="" />
+		<?php
+			$query = new WP_Query(array(
+				'post_type' => 'post',
+				'category__in' => wp_get_post_categories(get_the_ID()),
+				'post__not_in' => array(get_the_ID()),
+				'posts_per_page' => 3,
+				'orderby' => 'date',
+			));
 
-                <div class="flex items-center mb-6">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (23).jpg" class="rounded-full ml-2 h-8"
-                        alt="" loading="lazy" />
-                    <div>
-                        <span> نشر <u>15.07.2020</u> بواسطة </span>
-                        <a href="#!" class="font-medium">أحمد جمال</a>
-                    </div>
-                </div>
 
-                <h3 class="font-bold text-xl mb-6">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج </h3>
+			if ($query->have_posts()){ // check if there's posts
+				while($query->have_posts()){ // while throught posts
+					$query->the_post();
+					get_template_part( 'partials/content', 'posts' );
 
-                <p>
-                    سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
-                    دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينت رأتاتيس ايت
-                </p>
-            </article>
+				} // end while
+			} // end if
 
-            <!-- Section: Design Block -->
-            <article class="mb-32 text-gray-800">
-                <img src="https://mdbootstrap.com/img/new/slides/200.jpg" class="w-full shadow-lg rounded-lg mb-6"
-                    alt="" />
+		?>
 
-                <div class="flex items-center mb-6">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (23).jpg" class="rounded-full ml-2 h-8"
-                        alt="" loading="lazy" />
-                    <div>
-                        <span> نشر <u>15.07.2020</u> بواسطة </span>
-                        <a href="#!" class="font-medium">أحمد جمال</a>
-                    </div>
-                </div>
 
-                <h3 class="font-bold text-xl mb-6">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج </h3>
-
-                <p>
-                    سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
-                    دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينت رأتاتيس ايت
-                </p>
-            </article>
-
-            <!-- Section: Design Block -->
-            <article class="mb-32 text-gray-800">
-                <img src="https://mdbootstrap.com/img/new/slides/199.jpg" class="w-full shadow-lg rounded-lg mb-6"
-                    alt="" />
-
-                <div class="flex items-center mb-6">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img (23).jpg" class="rounded-full ml-2 h-8"
-                        alt="" loading="lazy" />
-                    <div>
-                        <span> نشر <u>15.07.2020</u> بواسطة </span>
-                        <a href="#!" class="font-medium">أحمد جمال</a>
-                    </div>
-                </div>
-
-                <h3 class="font-bold text-xl mb-6">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج </h3>
-
-                <p>
-                    سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
-                    دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينت رأتاتيس ايت
-                </p>
-            </article>
 
 
 

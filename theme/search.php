@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main id="primary">
+	<main id="primary" class="my-24 text-gray-800 max-w-screen-xl mx-auto p-6">
 
 		<?php if ( have_posts() ) : ?>
 

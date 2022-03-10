@@ -133,7 +133,8 @@ get_header();
 
 </section>
 
-<section dir="rtl" class="relative w-full bg-white text-gray-800">
+<!-- Team -->
+<section dir="rtl" class="relative w-full bg-white text-gray-800" id="team">
     <div class="absolute inset-0 w-full h-full opacity-25 sm:opacity-50 overflow-hidden">
         <svg viewBox="0 0 150 350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             class="absolute top-0 right-0 w-auto h-full opacity-75">
