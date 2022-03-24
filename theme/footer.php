@@ -98,6 +98,30 @@
 		let menu = document.getElementById('mobile-menu');
 		menu.classList.remove('hidden');
 	}
+
+	function switchAccordion(el){
+		let content = el.querySelector("p");
+		let icon = el.querySelector("span");
+		if(content.classList.contains("max-h-0")){
+			content.classList.remove('max-h-0' ,'p-0');
+			content.classList.add('max-h-fit', 'p-8', 'border-t', 'border-gray-200');
+			icon.classList.add('text-gray-400' ,'bg-gray-200');
+			icon.classList.remove('text-white' ,'bg-primary');
+			icon.innerHTML =
+				`<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6" />
+                            </svg>`
+				;
+		}else {
+			content.classList.add('max-h-0', 'p-0');
+			content.classList.remove('max-h-fit' , 'p-8', 'border-t', 'border-gray-200');
+			icon.classList.remove('text-gray-400' ,'bg-gray-200');
+			icon.classList.add('text-white' ,'bg-primary');
+			icon.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                            </svg>`;
+		}
+	}
 </script>
 </body>
 

@@ -122,7 +122,7 @@ get_header();
 			));
 			if ($query->have_posts()){
 		?>
-			<h3 class="text-xl mb-24"> جامعات مشابهة</h3>
+			<h3 class="text-xl !mb-24"> جامعات مشابهة</h3>
 		<?php } ?>
 		<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-6 gap-y-16 px-4">
 

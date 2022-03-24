@@ -322,6 +322,54 @@ get_header();
         </div>
     </div>
 
+	<!-- FAQs -->
+
+
+    <section class="bg-white ">
+        <div class="container max-w-4xl px-6 py-10 mx-auto">
+			<h2 class="lg:text-3xl text-2xl font-bold text-center text-gray-700">الأسئلة الشائعة</h2>
+
+            <div class="mt-12 space-y-4">
+
+				<?php
+					$args = array(
+						'post_type'=> 'faq',
+						'order'    => 'ASC',
+						'posts_per_page'   => -1,
+					);
+
+					$the_query = new WP_Query( $args );
+					if ($the_query->have_posts()){ // check if there's posts
+						while($the_query->have_posts()){ // while throught posts
+							$the_query->the_post();
+					?>
+						<div class="border-2 border-gray-100 rounded-lg " onclick="switchAccordion(this)">
+							<button class="flex items-center justify-between w-full p-8">
+								<h3 class="font-semibold text-gray-700 "><?php the_title() ?></h3>
+
+								<span class="transition-all text-white bg-primary rounded-full">
+									<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+									</svg>
+								</span>
+							</button>
+
+							<p class="transition-all text-sm text-gray-500  max-h-0 overflow-hidden ">
+								<?php the_field( "answer" ); ?>
+							</p>
+						</div>
+					<?php
+
+						} // end while
+					} // end if
+
+				?>
+
+
+            </div>
+        </div>
+    </section>
+
 	 <!-- CTA -->
 
 	 <div class="bg-primary mt-12 text-white px-6">
