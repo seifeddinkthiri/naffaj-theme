@@ -24,10 +24,9 @@ get_header();
 <main id="primary " class=" mt-8"
     style="background: url('<?php echo get_template_directory_uri() . '/assets/bg.png'  ?>' ) no-repeat; background-size:100% 100%;">
     <div class="max-w-7xl mx-auto">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204956.3115283701!2d8.857895316921999!3d36.615737167348335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fca79c74fdddf7%3A0xd99e5aa2440ac2b1!2sCyber%20Parc!5e0!3m2!1sen!2stn!4v1646240137582!5m2!1sen!2stn"
-            class="w-full md:h-80 rounded" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
+
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.0078042179157!2d31.19880171523108!3d30.06531078187468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458411667ba29fd%3A0xb9d313df52922730!2s5%20Dr%20Hegazy%2C%20Mit%20Akaba%2C%20Agouza%2C%20Giza%20Governorate%2C%20Egypt!5e0!3m2!1sen!2stn!4v1648746318901!5m2!1sen!2stn" height="400" style="border:0; width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         <div class="container mx-auto py-16">
             <div class="lg:flex">
@@ -41,7 +40,7 @@ get_header();
                                     alt="phone" />
 
                             </div>
-                            <p class="pl-4 text-white text-base">+1 (308) 321 321</p>
+                            <p class="pl-4 text-white text-base">0999910161</p>
                         </div>
                         <div class="flex items-center">
                             <div aria-label="email icon" role="img">
@@ -49,18 +48,16 @@ get_header();
                                     alt="email" />
 
                             </div>
-                            <p class="pl-4 text-white text-base">Info@alphas.com</p>
+                            <p class="pl-4 text-white text-base">info@naffajegypt.com</p>
                         </div>
                         <p class="text-lg text-white pt-10 tracking-wide">
-                            545, Street 11, Block F
+<b>				مكتب القاهرة:	</b>
+	المهندسين 5 شارع الدكتور حجازي متفرع من وادي النيل
                             <br />
-                            Dean Boulevard, Ohio
+							<b class="mt-2 inline-block">				مكتب الخرطوم:	</b>
+							اركويت مربع 47 مبنى رقم 275 الطابق الثاني
                         </p>
-                        <!-- <div class=" pt-16">
-                            <a href="javascript:void(0)"
-                                class="text-white font-bold tracking-wide underline focus:outline-none focus:ring-2 focus:ring-white ">View
-                                Job Openings</a>
-                        </div> -->
+
                     </div>
                 </div>
                 <div class="xl:w-3/5 lg:w-3/5 bg-gray-200 h-full pt-5 pb-5 xl:pl-5 xl:pr-0 rounded-tl rounded-bl">

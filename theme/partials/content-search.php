@@ -17,7 +17,7 @@
 		<div>
 			<?php
 			naffaj_posted_on();
-			naffaj_posted_by();
+
 			?>
 		</div>
 		<?php endif; ?>

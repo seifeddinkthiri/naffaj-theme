@@ -221,51 +221,53 @@ get_header();
         <div
             class="grid gap-10 row-gap-8 ml-auto mr-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
             <div class="flex items-center">
-                <img src="https://sufyan.me/_nuxt/images/sufyan-e995a0.webp"
+                <img src="<?php echo get_template_directory_uri() . '/assets/team/moadh.jpeg'  ?>"
                     class="object-cover w-20 h-20 ml-4 rounded-full shadow" />
                 <div class="relative">
-                    <p class="text-lg font-bold text-gray-800">سفيان</p>
-                    <p class="text-sm text-gray-600">CEO &amp; Founder</p>
+                    <p class="text-lg font-bold text-gray-800">معاذ كرشوم</p>
+                    <p class="text-sm text-gray-600">مستشار أكاديمي</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfDJ8MHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60"
+                <img src="<?php echo get_template_directory_uri() . '/assets/team/chaima.jpg'  ?>"
                     class="object-cover w-20 h-20 ml-4 rounded-full shadow" />
                 <div class="relative">
-                    <p class="text-lg font-bold text-gray-800">أحمد السالم</p>
-                    <p class="text-sm text-gray-600">Co-Founder</p>
+                    <p class="text-lg font-bold text-gray-800">شيماء كمال </p>
+                    <p class="text-sm text-gray-600">مستشار أكاديمي</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <img src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8MnwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60"
+                <img src="<?php echo get_template_directory_uri() . '/assets/team/ghofran.jpg'  ?>"
                     class="object-cover w-20 h-20 ml-4 rounded-full shadow" />
                 <div class="relative">
-                    <p class="text-lg font-bold text-gray-800">منى علي</p>
-                    <p class="text-sm text-gray-600">software engineering</p>
+                    <p class="text-lg font-bold text-gray-800">غفران ابراهيم</p>
+                    <p class="text-sm text-gray-600">مستشار أكاديمي</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <img src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8MnwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60"
+                <img src="<?php echo get_template_directory_uri() . '/assets/team/kalimat.jpg'  ?>"
                     class="object-cover w-20 h-20 ml-4 rounded-full shadow" />
                 <div class="relative">
-                    <p class="text-lg font-bold text-gray-800">نوره عبدالله</p>
-                    <p class="text-sm text-gray-600">Designer</p>
+                    <p class="text-lg font-bold text-gray-800">د. كلمات العطايا</p>
+                    <p class="text-sm text-gray-600">مستشار أكاديمي</p>
+					<p class="text-sm text-gray-600">مدير مكتب القاهرة</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfDJ8MHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60"
+                <img src="<?php echo get_template_directory_uri() . '/assets/team/sahar.jpg'  ?>"
                     class="object-cover w-20 h-20 ml-4 rounded-full shadow" />
                 <div class="relative">
-                    <p class="text-lg font-bold text-gray-800">منصور أحمد</p>
-                    <p class="text-sm text-gray-600">Lead Designer</p>
+                    <p class="text-lg font-bold text-gray-800">سحر سيف الدين</p>
+                    <p class="text-sm text-gray-600">مستشار أكاديمي</p>
+					<p class="text-sm text-gray-600">مدير مكتب الخرطوم</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfDJ8MHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60"
+                <img src="<?php echo get_template_directory_uri() . '/assets/team/sajda.jpg'  ?>"
                     class="object-cover w-20 h-20 ml-4 rounded-full shadow" />
                 <div class="relative">
-                    <p class="text-lg font-bold text-gray-800">تركي ناصر</p>
-                    <p class="text-sm text-gray-600">Markting</p>
+                    <p class="text-lg font-bold text-gray-800">سجدة عبد العزيز الشيخ</p>
+                    <p class="text-sm text-gray-600">مستشار سفر وسياحة</p>
                 </div>
             </div>
         </div>

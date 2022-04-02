@@ -322,9 +322,172 @@ get_header();
         </div>
     </div>
 
+	<section class="px-6 xl:px-0 bg-gray-100">
+        <div class="lg:py-20 py-12 px-6 mx-auto container">
+            <div class="flex flex-col lg:items-center justify-center w-full">
+                <h1 class="font-semibold text-gray-700 text-2xl md:text-4xl">اختر الأنسب لك.</h1>
+                <p class="mt-2.5 lg:w-1/2 lg:text-center text-lg text-gray-700">لكي نوفر عليك الكثير من المصاريف
+                    والكثير من المجهودات يقوم فريقنا بجمع كل المستلزمات التي تحتاج اليها ضمن باقات شاملة فقط عليك اختيار
+                    واحدة منها وفق احتياجاتك. </p>
+            </div>
+            <div class="flex items-center justify-center w-full">
+                <div class="pt-14">
+                    <div class="container mx-auto">
+
+                        <div class="flex flex-wrap mb-12 justify-between sm:justify-center -mx-6">
+                            <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
+                                <div class="py-5 px-4 bg-white border border-gray-200shadow rounded-lg ">
+                                    <h2 class="text-xl text-primary font-semibold mb-8">الباقة الفضية</h2>
+                                    <ul class="flex flex-col mb-6">
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">متابعة التقديم عبر موقع ادرس في مصر</p>
+                                        </li>
+                                        <li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">دفع الرسوم</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">الحصول على الترشيح المبدئي</p>
+                                        </li>
+
+                                    </ul>
+                                    <p class="text-base text-primary text-center relative pl-3">
+                                        <span class="text-2xl font-semibold">مجانا</span>
+                                    </p>
+                                    <button
+                                        class="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition duration-150 ease-in-out rounded text-primary px-8 text-base font-semibold py-3">قدم طلبك</button>
+                                </div>
+                            </div>
+                            <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
+                                <div class="py-5 px-4 bg-primary border border-gray-200 shadow rounded-lg ">
+                                    <h2 class="text-xl text-white font-semibold mb-8">الباقة الذهبية</h2>
+                                    <ul class="flex flex-col mb-6">
+                                        <li class="flex items-center mb-2.5">
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks text-secondary flex-shrink-0 ml-4 w-6 h-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+											<path d="M7 12l5 5l10 -10"></path>
+											<path d="M2 12l5 5m5 -5l5 -5"></path>
+										</svg>
+                                            <p class="text-secondary text-base font-semibold">جميع مميزات الباقة الفضية</p>
+                                        </li>
+                                        <li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">إرسال الشهادات والاوراق الاصلية</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">عمل التوثيقات من السفارة والخارجية المصرية</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">تسليم الملف لأدارة الوافدين</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">إستلام افادة القبول النهائي</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">استشارات السفر والحصول على افضل الاسعار</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">إستقبال في مطار القاهرة</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-white w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-white text-base font-normal">استشارات السكن الطلابي</p>
+                                        </li>
+                                    </ul>
+                                    <p class="text-base text-white text-center relative pl-3">
+                                        <span class="font-light text-lg">$</span>
+                                        <span class="text-2xl font-semibold">200</span>
+                                    </p>
+                                    <button
+                                        class="mt-5 w-full text-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary focus:ring-white transition duration-150 ease-in-out rounded bg-white hover:bg-gray-100 px-8 py-3 text-base font-semibold">قدم طلبك</button>
+                                </div>
+                            </div>
+                            <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
+                                <div class="py-5 px-4 bg-white border border-gray-200shadow rounded-lg">
+                                    <h2 class="text-lg text-primary font-semibold mb-8">الباقة البرونزية</h2>
+                                    <ul class="flex flex-col mb-6">
+										<li class="flex items-center mb-2.5">
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks text-primary flex-shrink-0 ml-4 w-6 h-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+											<path d="M7 12l5 5l10 -10"></path>
+											<path d="M2 12l5 5m5 -5l5 -5"></path>
+										</svg>
+                                            <p class="text-primary text-base font-semibold">جميع مميزات الباقة الذهبية</p>
+                                        </li>
+                                        <li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">تجهيز ملف التأشيرة وضمان الحصول عليها في اسرع وقت</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">الحصول على رقم هاتف</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">متابعة تسجيل الجامعة</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">متابعة ملف الاقامة</p>
+                                        </li>
+										<li class="flex items-center mb-2.5">
+											<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-700 w-5 h-5 flex-shrink-0 ml-4" viewBox="0 0 20 20" fill="currentColor">
+												<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+											</svg>
+                                            <p class="text-gray-700 text-base font-semibold">فتح الحساب البنكي والحصول على بطاقة فيزا</p>
+                                        </li>
+                                    </ul>
+                                    <p class="text-base text-primary text-center relative pl-3">
+                                        <span class="font-light text-lg">$</span>
+                                        <span class="text-2xl font-semibold">400</span>
+                                    </p>
+                                    <button
+                                        class="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition duration-150 ease-in-out rounded text-primary px-8 text-base font-semibold py-3">قدم طلبك</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 	<!-- FAQs -->
-
-
     <section class="bg-white ">
         <div class="container max-w-4xl px-6 py-10 mx-auto">
 			<h2 class="lg:text-3xl text-2xl font-bold text-center text-gray-700">الأسئلة الشائعة</h2>

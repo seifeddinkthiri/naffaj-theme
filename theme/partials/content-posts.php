@@ -16,8 +16,8 @@
 	<div class="flex items-center mb-6">
 
 		<div>
-			<span> نشر <u><?php the_time('F j, Y') ?></u> بواسطة </span>
-			<a href="#!" class="font-medium">أحمد جمال</a>
+			<span> نشر في <u><?php the_time('F j, Y') ?></u>  </span>
+
 		</div>
 	</div>
 
