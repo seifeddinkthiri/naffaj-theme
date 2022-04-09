@@ -30,8 +30,8 @@ get_header();
                 الموقع الأول المختص بالدراسة في مصر لطلاب السودان
             </h2>
             <div class="mt-6">
-                <button class="border border-primary rounded text-sm text-white px-3 py-3 bg-primary  mr-1"> سجل
-                    الآن</button>
+                <a href="#" class="border border-primary rounded text-sm text-white px-3 py-3 bg-primary  mr-1"> سجل
+                    الآن</a>
                 <a href="/services" class="border rounded text-sm px-3 py-3 bg-secondary text-primary border-secondary mr-1">
                     خدماتنا</a>
             </div>
@@ -431,7 +431,7 @@ get_header();
                             </div>
                             <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
                                 <div class="py-5 px-4 bg-white border border-gray-200shadow rounded-lg">
-                                    <h2 class="text-lg text-primary font-semibold mb-8">الباقة البرونزية</h2>
+                                    <h2 class="text-lg text-primary font-semibold mb-8">الباقة البلاتينية</h2>
                                     <ul class="flex flex-col mb-6">
 										<li class="flex items-center mb-2.5">
 										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks text-primary flex-shrink-0 ml-4 w-6 h-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
